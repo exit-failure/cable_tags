@@ -1,0 +1,27 @@
+// tags.txt formatting:
+
+// Empty lines and lines starting with "\\" will be ignored.
+
+// The format of a line in tags.txt is:
+
+// "line 1","line 2"
+
+// Where line1 and line2 are the texts that will be printed on the respective lines of the tag.
+
+"USB","Hub 1"
+"USB","Switch"
+"Tower","PC"
+"Laptop","Work"
+"Monitor","Iiyama"
+"Monitor","Dell"
+"Monitor","Fujitsu"
+"Monitor","NEC"
+"Audioint.","Behringer"
+"Smartc.","Reader"
+"Prusa","MK3S+"
+"Wash &","Cure"
+"Anycubic","Photon"
+"LED","Strip"
+"Switch","16 Port"
+"Printer",""
+"Desk","Lamp"
