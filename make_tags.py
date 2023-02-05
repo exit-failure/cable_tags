@@ -64,7 +64,7 @@ def main():
 
     # create thread pool with at least one thread but alway leave at least one cpu thread unused.
     with mp.Pool(processes = max(mp.cpu_count()-1, 1)) as thread_pool:
-        with open(INPUT_FILE, mode="r") as lines:
+        with open(INPUT_FILE, mode="r", encoding="utf8") as lines:
             thread_pool.map_async(generate_stl, lines)
         # synchronize
         thread_pool.close()
