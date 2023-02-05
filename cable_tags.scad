@@ -1,12 +1,12 @@
 $fa = 25;
 
 // keep this even if you are using the python script!
-//line_1="{YOU SHOULD NOT SEE THIS 1!}";
-//line_2="{YOU SHOULD NOT SEE THIS 2!}";
+line_1="{YOU SHOULD NOT SEE THIS 1!}";
+line_2="{YOU SHOULD NOT SEE THIS 2!}";
 
 // use the two sets of lines below to adjust for different font sozes
-line_1="{T}";
-line_2="{y}";
+//line_1="{T}";
+//line_2="{y}";
 //line_1="{TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT}";
 //line_2="{TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT}";
 
@@ -26,7 +26,7 @@ fontSettings_14 =   [7.295,  18.7,   0,     3.0];
 fontSettings_16 =   [8.335,  21.0,   0,     4.0];
 
 // Font size. Make sure there is a valid set of settings for your chosen size. If there is none, create one or use a different font size.
-fontSize = 4;
+fontSize = 5;
 
 fontSettings =
     fontSize == 2   ?   fontSettings_2  :
