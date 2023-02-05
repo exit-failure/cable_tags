@@ -1,6 +1,21 @@
 # 3D-printable Cable Tag Generator
 
-## input file formatting
+## Installation
+
+* Install [Python](https://www.python.org/). This script has been tested with Python 3.11.
+  * Under Windows, make sure that you select the option to add Python to PATH during the installation.
+* Install [OpenScad](https://openscad.org/)
+* Under Windows you will need to add OpenScad to PATH
+  1. go to Start -> Settings -> Control Panel -> System -> Advanced tab -> Environment Variables -> System Variables
+  2. select Path
+  3. click Edit
+  4. click New
+  5. enter the path to the OpenScad main executable
+  6. press ENTER
+  7. click on OK and on OK again
+  8. You need to close all related windows. If that does not help, restart Windows
+
+## Input file formatting
 
 * Empty lines and lines starting with `\\` will be ignored.
 
@@ -38,6 +53,9 @@
         Do not show OpenScad output.
         The default is true.
 
-    -t --thread_count []:
+    -t --thread_count [number]:
         The number of simultaneous instances of OpenScad that this script is allowed to start.
         The default is max(1, [cpu thread count]-1)
+    
+    -h --help:
+        Show this help.
