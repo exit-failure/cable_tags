@@ -24,7 +24,7 @@
   * `"line 1","line 2"`
   * line1 and line2 are the texts that will be printed on the respective lines of the tag.
 
-## make_tags.py command line options
+## make_tags.py command line options (NOT YET IMPLEMENTED)
 
     -i --inputfile [file]:
         The file from where the labels will be read.
