@@ -8,7 +8,9 @@
 * Install [Python](https://www.python.org/). This script has been tested with Python 3.11.
   * Under Windows, make sure that you select the option to add Python to PATH during the installation.
 * Install [OpenScad](https://openscad.org/)
-### Set up Windows evironment (should not be necessary for Linux and MacOS)
+
+### Set up Windows evironment (should not be necessary for Linux and MacOS):
+
 1. go to Start -> Settings -> Control Panel -> System -> Advanced tab -> Environment Variables -> System Variables
 2. select Path
 3. click Edit
