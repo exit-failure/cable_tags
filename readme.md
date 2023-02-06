@@ -7,14 +7,14 @@
   * Under Windows, make sure that you select the option to add Python to PATH during the installation.
 * Install [OpenScad](https://openscad.org/)
 * Under Windows you will need to add OpenScad to PATH
-  1. go to Start -> Settings -> Control Panel -> System -> Advanced tab -> Environment Variables -> System Variables
-  2. select Path
-  3. click Edit
-  4. click New
-  5. enter the path to the OpenScad main executable
-  6. press ENTER
-  7. click on OK and on OK again
-  8. You need to close all related windows. If that does not help, restart Windows
+1. go to Start -> Settings -> Control Panel -> System -> Advanced tab -> Environment Variables -> System Variables
+2. select Path
+3. click Edit
+4. click New
+5. enter the path to the OpenScad main executable
+6. press ENTER
+7. click on OK and on OK again
+8. You need to close all related windows. If that does not help, restart Windows
 
 ## Input file formatting
 
