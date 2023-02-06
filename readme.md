@@ -2,14 +2,14 @@
 
 ## Installation
 
-### Download and install software:
+### Download and install software
 
 * Install font [Quinze Narrow](https://www.ffonts.net/Quinze-Narrow.font).
 * Install [Python](https://www.python.org/). This script has been tested with Python 3.11.
   * Under Windows, make sure that you select the option to add Python to PATH during the installation.
 * Install [OpenScad](https://openscad.org/)
 
-### Set up Windows evironment (should not be necessary for Linux and MacOS):
+### Set up Windows environment (should not be necessary for Linux and MacOS)
 
 1. go to Start -> Settings -> Control Panel -> System -> Advanced tab -> Environment Variables -> System Variables
 2. select Path
@@ -40,6 +40,14 @@
     
     -l --line ["line1","line2"]:
         Directly pass the two lines that will be put on a label. This will disable -i.
+    
+    -bh --base_height [height in mm]:
+        Height of the base plate.
+        The Default is 1.5.
+
+    -lh --letter_height [height in mm]
+        Height of the letters.
+        The Default is 0.3.
 
     -f --font_size [size]:
         The font size of the tag. Currently the following values are valid:
