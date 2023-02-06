@@ -2,7 +2,7 @@
 
 ## Installation
 
-* Install font [Quinze Narrow](https://www.ffonts.net/Quinze-Narrow.font)
+* Install font [Quinze Narrow](https://www.ffonts.net/Quinze-Narrow.font).
 * Install [Python](https://www.python.org/). This script has been tested with Python 3.11.
   * Under Windows, make sure that you select the option to add Python to PATH during the installation.
 * Install [OpenScad](https://openscad.org/)
