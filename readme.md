@@ -60,7 +60,9 @@
 
     -t --thread_count [number]:
         The number of simultaneous instances of OpenScad that this script is allowed to start.
-        The default is max(1, [cpu thread count]-1) meaning that you will have one thread less than the maximum of your CPU working simultaneously or one if your CPU is single threaded.
+        The default is max(1, [cpu thread count]-1) 
+        This means that you will have one thread less than the maximum of your CPU working simultaneously
+        or one if your CPU is single threaded.
     
     -h --help:
         Show this help.
